@@ -49,6 +49,22 @@ import star from "../assets/section5/star.svg"
 import arrow from "../assets/section5/arrow.svg"
 export { star, arrow }
 
+// Section 6
+import imgcont from "../assets/section6/img.svg"
+import arrowDown from "../assets/section6/arrowDown.svg"
+export { imgcont, arrowDown }
+
 // section 7
+import teles from "../assets/section7/teles.svg";
+import lab from "../assets/section7/lab.svg";
+import text03 from "../assets/section7/03text.svg";
+import resume from "../assets/section7/resume.svg";
+import placement from "../assets/section7/placement.svg";
+import interview from "../assets/section7/interview.svg";
 import img01 from "../assets/section7/01.svg";
-export { img01 }
+import img02 from "../assets/section7/02.svg";
+import img03 from "../assets/section7/03.svg";
+import img04 from "../assets/section7/04.svg";
+import img05 from "../assets/section7/05.svg";
+import img06 from "../assets/section7/06.svg";
+export { img01, img02, img03, img04, img05, img06, teles, lab, text03, resume, placement, interview };

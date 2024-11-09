@@ -2,7 +2,7 @@ import { laptop, campus1, trainBuilding, tri, tri2 } from "./image.js";
 
 const Content = () => {
   return (
-    <div className="container mx-auto p-4 md:p-8">
+    <div className=" mx-auto p-4 md:p-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div className="flex flex-col items-center lg:items-start">
           <img src={laptop} alt="laptop" className="w-full h-auto mb-6 lg:mb-0" />
@@ -42,7 +42,7 @@ const Content = () => {
               <img
                 src={tri2}
                 alt="polygon2"
-                className="w-8 md:w-auto hidden lg:block translate-x-32 -translate-y-20"
+                className="w-7 md:w-auto hidden lg:block translate-x-32 -translate-y-20"
               />
               <img src={trainBuilding} alt="professional training" className="mb-4 w-20 max-w-xs lg:max-w-none" />
               <div className="text-center">
