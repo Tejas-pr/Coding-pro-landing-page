@@ -6,7 +6,9 @@ import HeroBoxContent from "./components/HeroBoxContent";
 import Section1 from "./pages/Section1";
 import Section2 from "./pages/Section2";
 import Section3 from "./pages/Section3";
+import Section5 from "./pages/Section5";
 import Carousel from "./pages/Carousel";
+import Section7 from "./pages/Section7";
 
 function App() {
   return (
@@ -21,6 +23,10 @@ function App() {
         <Section2 />
         <Section3 />
         <Carousel />
+        <div className="mx-20">
+          <Section5 />
+        </div>
+        <Section7 />
       </BrowserRouter>
     </>
   );
