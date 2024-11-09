@@ -68,3 +68,32 @@ import img04 from "../assets/section7/04.svg";
 import img05 from "../assets/section7/05.svg";
 import img06 from "../assets/section7/06.svg";
 export { img01, img02, img03, img04, img05, img06, teles, lab, text03, resume, placement, interview };
+
+// section 8
+import topbg from '../assets/section8/topbg.svg'
+import people1 from '../assets/section8/people1.svg'
+import people2 from '../assets/section8/people2.svg'
+import people3 from '../assets/section8/people3.svg'
+import people4 from '../assets/section8/people4.svg'
+export { people1, people2, people3, people4, topbg };
+
+// Section 9
+import java from '../assets/section9/java.svg'
+import arrows from '../assets/section9/arrows.svg'
+import angular from '../assets/section9/angular.svg'
+import flutter from '../assets/section9/flutter.svg'
+import js from '../assets/section9/js.svg'
+import profile from '../assets/section9/profile.svg'
+import css from '../assets/section9/css.svg'
+import react from '../assets/section9/react.svg'
+export { java, angular, arrows, flutter, js, profile, css, react }
+
+// Secton 10
+import card01 from '../assets/section10/card1.svg'
+import img001 from '../assets/section10/img001.png'
+import img002 from '../assets/section10/img002.png'
+import img003 from '../assets/section10/img003.png'
+import polygon1 from '../assets/section10/polygon001.svg'
+import polygon2 from '../assets/section10/polygon002.svg'
+import polygondot from '../assets/section10/dotpolygon.svg'
+export { card01, img001, img002, img003, polygon1, polygon2, polygondot }

@@ -89,7 +89,7 @@
     border-left: 15px solid #2B95ED;
     right: -15px;
 }
-
+/* 
 @media screen and (max-width: 600px) {
     .timeline{
         margin: 50px auto;
@@ -119,4 +119,28 @@
         border-left: 0;
         left: -15px;
     }
-}
+} */
+
+@media screen and (max-width: 600px) {
+    .timetime::after {
+      left: 30px;
+    }
+    .container {
+      width: 100%;
+      padding-left: 20px; /* Adjusted for smaller devices */
+      padding-right: 20px;
+    }
+    .text-box {
+      font-size: 13px; /* Reduce font size for smaller screens */
+    }
+    .text-box p {
+      margin-bottom: 10px;
+    }
+    .right-container-arrow,
+    .left-container-arrow {
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      left: -15px;
+    }
+  }
+  

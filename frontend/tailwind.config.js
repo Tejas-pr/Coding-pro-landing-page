@@ -8,6 +8,8 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('../src/icons/binary.svg')",
+        'section8bg': "url('../src/icons/floating.svg')",
+        'section9bg': "url('../src/icons/section9bg.svg')",
       }
     },
   },
