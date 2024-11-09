@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import Hero from "./pages/Hero";
 import HeroBoxContent from "./components/HeroBoxContent";
 import Section1 from "./pages/Section1";
+import Section2 from "./pages/Section2";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </div>
         <HeroBoxContent />
         <Section1 />
+        <Section2 />
       </BrowserRouter>
     </>
   );

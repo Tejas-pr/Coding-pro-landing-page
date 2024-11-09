@@ -16,4 +16,18 @@ export { laptop, map, note, campus1, trainBuilding, tri, tri2, bars, hat, inst, 
 
 //Section1
 import section1Box from "../assets/section1-box.svg";
-export {section1Box};
+import section1Box1 from "../assets/section1-box1.svg";
+import graduate from "../assets/graduate.svg";
+import aiint from "../assets/ai-int.svg";
+import codeint from "../assets/code-int.svg";
+import ebook from "../assets/ebook-int.svg";
+import record from "../assets/record-int.svg";
+import flash from "../assets/flash-int.svg";
+export {section1Box, section1Box1, graduate, aiint, codeint, ebook, record, flash};
+
+//Section3
+import dots from "../assets/section2/dots.svg"
+import roundDisk from "../assets/section2/roundDisk.svg"
+import card1 from "../assets/section2/cardSvg.svg"
+import card2 from "../assets/section2/cardSvg2.svg"
+export { dots, roundDisk, card1, card2 }
