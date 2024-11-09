@@ -25,9 +25,21 @@ import record from "../assets/record-int.svg";
 import flash from "../assets/flash-int.svg";
 export {section1Box, section1Box1, graduate, aiint, codeint, ebook, record, flash};
 
-//Section3
+// Section2
 import dots from "../assets/section2/dots.svg"
 import roundDisk from "../assets/section2/roundDisk.svg"
 import card1 from "../assets/section2/cardSvg.svg"
 import card2 from "../assets/section2/cardSvg2.svg"
 export { dots, roundDisk, card1, card2 }
+
+// section3
+import img1 from "../assets/section3/img1.svg"
+import img2 from "../assets/section3/img2.svg"
+export { img1, img2 }
+
+// Carousel
+import img1C from "../assets/carousel/img1.svg";
+import img2C from "../assets/carousel/img2.svg";
+import leftArrow from "../assets/carousel/leftArrow.svg";
+import rightArrow from "../assets/carousel/rightArrow.svg";
+export { img1C, img2C, leftArrow, rightArrow }

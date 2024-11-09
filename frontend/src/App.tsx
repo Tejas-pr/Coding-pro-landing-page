@@ -5,6 +5,8 @@ import Hero from "./pages/Hero";
 import HeroBoxContent from "./components/HeroBoxContent";
 import Section1 from "./pages/Section1";
 import Section2 from "./pages/Section2";
+import Section3 from "./pages/Section3";
+import Carousel from "./pages/Carousel";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <HeroBoxContent />
         <Section1 />
         <Section2 />
+        <Section3 />
+        <Carousel />
       </BrowserRouter>
     </>
   );
