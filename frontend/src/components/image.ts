@@ -43,3 +43,12 @@ import img2C from "../assets/carousel/img2.svg";
 import leftArrow from "../assets/carousel/leftArrow.svg";
 import rightArrow from "../assets/carousel/rightArrow.svg";
 export { img1C, img2C, leftArrow, rightArrow }
+
+// Section5
+import star from "../assets/section5/star.svg"
+import arrow from "../assets/section5/arrow.svg"
+export { star, arrow }
+
+// section 7
+import img01 from "../assets/section7/01.svg";
+export { img01 }
