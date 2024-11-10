@@ -15,6 +15,8 @@ import Section9 from "./pages/Section9";
 import Section10 from "./pages/Section10";
 import Section11 from "./pages/Section11";
 import Section12 from "./pages/Section12";
+import Section13 from "./pages/Section13";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
         <Section10 />
         <Section11 />
         <Section12 />
+        <Section13 />
+        <Footer />
       </BrowserRouter>
     </>
   );

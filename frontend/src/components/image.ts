@@ -123,3 +123,19 @@ import bar from '../assets/section12/bar.svg'
 import playstore from '../assets/section12/playstore.svg'
 import apple from '../assets/section12/apple.svg'
 export { mobile, recorded, online, coding, evalution, keyboard, infinity, cloud, codingMaz, leftarrow, rightarrow, bar, playstore, apple }
+
+// Section 13
+import circledot from '../assets/section13/circledot.svg'
+import leftImage from '../assets/section13/image.svg'
+import topimage from '../assets/section13/topimg.svg'
+export { circledot, leftImage, topimage }
+
+// Section footer
+import insta from '../assets/footer/insta.svg'
+import facebook from '../assets/footer/facebook.svg'
+import linkedin from '../assets/footer/linkedin.svg'
+import call from '../assets/footer/call.svg'
+import email from '../assets/footer/email.svg'
+import location from '../assets/footer/location.svg'
+import arrow001 from '../assets/footer/arrow.svg'
+export { insta, facebook, linkedin, call, email, location, arrow001 }

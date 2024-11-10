@@ -18,7 +18,7 @@ import {
 const Section12 = () => {
   return (
     <>
-      <div className="flex justify-center items-center m-10 gap-x-20">
+      <div className="flex justify-center items-center m-10 gap-x-20 md:mt-20">
         <div className="hidden md:block ">
           <img src={mobile} alt="mobile" />
         </div>
