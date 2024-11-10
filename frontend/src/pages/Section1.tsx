@@ -46,7 +46,7 @@ const Section1 = () => {
               delay: 0.5,
               ease: [0, 0.71, 0.2, 1.01],
             }}
-            className="bg-white col-span-6 md:col-span-4 rounded-lg text-start p-8"
+            className="bg-white col-span-12 md:col-span-4 rounded-lg text-start p-8"
           >
             <img src={graduate} alt="" className="mb-4" />
             <h2 className="font-bold text-xl text-[#2B95ED] mb-2">
@@ -66,7 +66,7 @@ const Section1 = () => {
               delay: 0.6,
               ease: [0, 0.71, 0.2, 1.01],
             }}
-            className="bg-white col-span-6 md:col-span-4 rounded-lg text-start p-8"
+            className="bg-white col-span-12 md:col-span-4 rounded-lg text-start p-8"
           >
             <img src={aiint} alt="" className="mb-4" />
             <h2 className="font-bold text-xl text-[#2B95ED] mb-2">
@@ -86,7 +86,7 @@ const Section1 = () => {
               delay: 0.7,
               ease: [0, 0.71, 0.2, 1.01],
             }}
-            className="bg-white col-span-6 md:col-span-4 rounded-lg text-start p-8"
+            className="bg-white col-span-12 md:col-span-4 rounded-lg text-start p-8"
           >
             <img src={codeint} alt="" className="mb-4" />
             <h2 className="font-bold text-xl text-[#2B95ED] mb-2">
@@ -105,7 +105,7 @@ const Section1 = () => {
               delay: 0.8,
               ease: [0, 0.71, 0.2, 1.01],
             }}
-            className="bg-white col-span-6 md:col-span-4 rounded-lg text-start p-8"
+            className="bg-white col-span-12 md:col-span-4 rounded-lg text-start p-8"
           >
             <img src={ebook} alt="" className="mb-4" />
             <h2 className="font-bold text-xl text-[#2B95ED] mb-2">
@@ -124,7 +124,7 @@ const Section1 = () => {
               delay: 0.9,
               ease: [0, 0.71, 0.2, 1.01],
             }}
-            className="bg-white col-span-6 md:col-span-4 rounded-lg text-start p-8"
+            className="bg-white col-span-12 md:col-span-4 rounded-lg text-start p-8"
           >
             <img src={record} alt="" className="mb-4" />
             <h2 className="font-bold text-xl text-[#2B95ED] mb-2">
@@ -143,7 +143,7 @@ const Section1 = () => {
               delay: 0.9,
               ease: [0, 0.71, 0.2, 1.01],
             }}
-            className="bg-white col-span-6 md:col-span-4 rounded-lg text-start p-8"
+            className="bg-white col-span-12 md:col-span-4 rounded-lg text-start p-8"
           >
             <img src={flash} alt="" className="mb-4" />
             <h2 className="font-bold text-xl text-[#2B95ED] mb-2">

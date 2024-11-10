@@ -17,7 +17,7 @@ const Section3 = () => {
       <img
         src={star}
         alt="star"
-        className="translate-x-80 -translate-y-24 transform -rotate-12"
+        className="hidden md:block md:translate-x-80 md:-translate-y-24 md:transform md:-rotate-12"
       />
     </>
   );

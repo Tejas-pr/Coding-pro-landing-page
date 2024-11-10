@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Sidebar = () => {
   return (
     <>
-      <div className="grid grid-cols-12 gap-2 gap-x-8">
+      <div className="grid grid-cols-12 gap-2 md:gap-x-8">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}

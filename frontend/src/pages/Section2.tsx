@@ -94,7 +94,7 @@ const Section2 = () => {
               </div>
             </div>
           </motion.div>
-          <img src={dots} alt="rounddisk" className="mb-4 hidden md:block md:translate-x-96 md:-translate-y-32 -z-10" />
+          <img src={dots} alt="rounddisk" className="mb-4 hidden lg:block md:translate-x-96 md:-translate-y-32 -z-10" />
         </div>
       </div>
     </>

@@ -38,8 +38,8 @@ const Footer = () => {
             />
             <motion.button 
             whileHover={{ scale: 1.1 }} whileTap={{ scale: 1 }} 
-            className="bg-gradient-to-r from-[#9BFEFF] to-[#5D9899] text-white p-2 px-10 rounded-r-full">
-              <img src={arrow001} alt="" />
+            className="bg-gradient-to-r from-[#9BFEFF] to-[#5D9899] text-white p-2 md:px-10 rounded-r-full">
+              <img src={arrow001} alt="arrow" />
             </motion.button>
           </div>
 

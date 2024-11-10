@@ -2,7 +2,7 @@ import { people1, people2, people3, people4, topbg } from "../components/image";
 
 const Section8 = () => {
   return (
-    <div className="hidden md:block relative bg-section8bg mt-5">
+    <div className="hidden lg:block relative lg:bg-section8bg mt-5">
       {/* Top SVG Background */}
       <img src={topbg} alt="topbg" className="absolute bottom-0 left-0 w-full h-auto z-20" />
 

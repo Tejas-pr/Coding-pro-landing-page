@@ -18,9 +18,9 @@ const Content = () => {
           <img
             src={laptop}
             alt="laptop"
-            className="w-full h-auto mb-6 lg:mb-0"
+            className="w-full h-auto md:mb-6 lg:mb-0"
           />
-          <div className="flex justify-between mt-8 space-x-5"></div>
+          <div className="flex justify-between md:mt-8 space-x-5"></div>
         </motion.div>
 
         <motion.div
@@ -31,16 +31,16 @@ const Content = () => {
             delay: 0.5,
             ease: [0, 0.71, 0.2, 1.01],
           }}
-          className="flex flex-col items-center lg:items-start space-y-6"
+          className="flex flex-col items-center lg:items-start md:space-y-6"
         >
-          <h2 className="font-Gilroy-ExtraBold text-4xl lg:text-5xl xl:text-6xl font-bold text-[#1C408E] text-center lg:text-left">
+          <h2 className="font-Gilroy-ExtraBold text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#1C408E] text-center lg:text-left">
             Where The World
           </h2>
           <div className="flex gap-x-2 items-center justify-center lg:justify-start">
-            <h2 className="font-Gilroy-ExtraBold text-4xl lg:text-5xl xl:text-6xl font-bold text-[#1C408E]">
+            <h2 className="font-Gilroy-ExtraBold text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#1C408E]">
               Learns To Code
             </h2>
-            <img src={tri} alt="polygon1" className="h-4 w-4 mt-2 lg:mt-0" />
+            <img src={tri} alt="polygon1" className="h-4 w-4 mt-2 mb-6 md:mb-0 lg:mt-0" />
           </div>
 
           <motion.div

@@ -19,7 +19,7 @@ const Section13 = () => {
               <h1 className="text-[#2B95ED] text-3xl md:text-6xl">
                 Find out more <br /> reasons to stay
               </h1>
-              <div className="hidden md:block md:absolute translate-x-96 -translate-y-32">
+              <div className="hidden lg:block md:absolute translate-x-96 -translate-y-32">
                 <img src={circledot} alt="top image" className="relative" />
               </div>
               <div className="p-8 space-y-8">
