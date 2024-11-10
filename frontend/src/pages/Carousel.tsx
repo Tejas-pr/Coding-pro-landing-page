@@ -1,4 +1,3 @@
-import React from "react";
 import { img1C, img2C, leftArrow, rightArrow } from "../components/image";
 
 const Carousel = () => {

@@ -2,7 +2,6 @@ import {
   cardImg,
   cardLogo1,
   cardLogo2,
-  circle,
   circle2,
 } from "../components/image";
 import Section11Card from "../components/Section11Card";

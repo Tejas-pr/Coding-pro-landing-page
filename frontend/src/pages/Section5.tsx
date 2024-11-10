@@ -1,4 +1,4 @@
-import { arrow, img1, star } from "../components/image";
+import { star } from "../components/image";
 
 const Section3 = () => {
   return (
