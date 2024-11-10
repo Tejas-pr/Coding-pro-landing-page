@@ -108,3 +108,18 @@ import circle2 from '../assets/section11/circle2.svg'
 export { cardLogo1, cardLogo2, arrowBtn, cardImg, circle, circle2 }
 
 // Section 12
+import mobile from '../assets/section12/mobile.svg'
+import recorded from '../assets/section12/recorded.svg'
+import online from '../assets/section12/online.svg'
+import coding from '../assets/section12/coding.svg'
+import evalution from '../assets/section12/evalution.svg'
+import keyboard from '../assets/section12/keyboard.svg'
+import infinity from '../assets/section12/infinity.svg'
+import cloud from '../assets/section12/cloud.svg'
+import codingMaz from '../assets/section12/codingMaz.svg'
+import leftarrow from '../assets/section12/leftarrow.svg'
+import rightarrow from '../assets/section12/rightarrow.svg'
+import bar from '../assets/section12/bar.svg'
+import playstore from '../assets/section12/playstore.svg'
+import apple from '../assets/section12/apple.svg'
+export { mobile, recorded, online, coding, evalution, keyboard, infinity, cloud, codingMaz, leftarrow, rightarrow, bar, playstore, apple }
