@@ -15,6 +15,8 @@ import {
   rightarrow,
 } from "../components/image";
 
+import { motion } from "framer-motion";
+
 const Section12 = () => {
   return (
     <>
@@ -81,7 +83,9 @@ const Section12 = () => {
 
             {/* Buttons Section */}
             <div className="mt-1 flex flex-col md:flex-row items-center justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
-              <button className="bg-[#2B95ED] text-white rounded-lg px-6 py-2 shadow-lg hover:bg-blue-500">
+              <motion.button
+              whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} 
+              className="bg-[#2B95ED] text-white rounded-lg px-6 py-2 shadow-lg hover:bg-blue-500">
                 <div className="flex items-center space-x-2">
                   <img
                     src={playstore}
@@ -93,8 +97,10 @@ const Section12 = () => {
                     <p className="text-2xl font-bold">Google Play</p>
                   </div>
                 </div>
-              </button>
-              <button className="bg-[#2B95ED] text-white rounded-lg px-6 py-2 shadow-lg hover:bg-blue-500">
+              </motion.button>
+              <motion.button
+              whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} 
+              className="bg-[#2B95ED] text-white rounded-lg px-6 py-2 shadow-lg hover:bg-blue-500">
                 <div className="flex items-center space-x-2">
                   <img
                     src={apple}
@@ -106,7 +112,7 @@ const Section12 = () => {
                     <p className="text-2xl font-bold">App Store</p>
                   </div>
                 </div>
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>

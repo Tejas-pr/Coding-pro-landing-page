@@ -1,7 +1,7 @@
 import { circledot, leftImage, topimage } from "../components/image";
 import TextField from "@mui/material/TextField";
 import Checkbox from "@mui/material/Checkbox";
-
+import { motion } from "framer-motion";
 const Section13 = () => {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
   return (
@@ -30,20 +30,22 @@ const Section13 = () => {
               <div className="flex justify-center items-start gap-x-2 mt-4">
                 <Checkbox {...label} defaultChecked />
                 <p className="text-sm">
-                  <span className="text-red-700 font-bold text-lg">*</span> Creating an account means you’re okay with our Terms of
+                  <span className="text-red-700 font-bold text-lg">*</span>{" "}
+                  Creating an account means you’re okay with our Terms of
                   Service, Privacy Policy, and default Notification Settings
                 </p>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center md:gap-4 mt-8">
               {" "}
-              {/* Centered alignment */}
-              <button
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
                 type="button"
                 className="text-white bg-[#2B95ED] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 mt-4 md:mt-0"
               >
                 Enquire Now
-              </button>
+              </motion.button>
               <p className="mt-2 md:mt-0">
                 Already Have An Account?{" "}
                 <span className="underline hover:cursor-pointer">Sign In</span>

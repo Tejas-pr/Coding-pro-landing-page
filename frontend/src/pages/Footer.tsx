@@ -8,13 +8,22 @@ import {
   linkedin,
   location,
 } from "../components/image";
+import { motion } from "framer-motion"
 
 const Footer = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row w-full">
         {/* left side */}
-        <div className="bg-[#195B9A] p-16 md:w-1/2 w-full text-white space-y-7">
+        <motion.div 
+        initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.5,
+        ease: [0, 0.71, 0.2, 1.01]
+      }}
+        className="bg-[#195B9A] p-16 md:w-1/2 w-full text-white space-y-7">
           <h1 className="text-3xl md:text-4xl lg:text-6xl">
             Let’s keep in touch!
           </h1>
@@ -27,9 +36,11 @@ const Footer = () => {
               className="flex-grow p-3 px-3 text-black border border-gray-300 rounded-l-full outline-none"
               placeholder="Institute name"
             />
-            <button className="bg-gradient-to-r from-[#9BFEFF] to-[#5D9899] text-white p-2 px-10 rounded-r-full">
+            <motion.button 
+            whileHover={{ scale: 1.1 }} whileTap={{ scale: 1 }} 
+            className="bg-gradient-to-r from-[#9BFEFF] to-[#5D9899] text-white p-2 px-10 rounded-r-full">
               <img src={arrow001} alt="" />
-            </button>
+            </motion.button>
           </div>
 
           <div className="flex flex-col space-y-4">
@@ -52,10 +63,18 @@ const Footer = () => {
               AIC-BHU, Varanasi, 421004
             </p>
           </div>
-        </div>
+        </motion.div>
 
         {/* right side */}
-        <div className="bg-[#2289DE] p-16 md:w-1/2 w-full text-white">
+        <motion.div 
+        initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.7,
+        ease: [0, 0.71, 0.2, 1.01]
+      }}
+        className="bg-[#2289DE] p-16 md:w-1/2 w-full text-white">
           <div className="flex flex-col md:flex-row md:justify-between gap-y-8 gap-x-10">
             <div className="flex flex-col space-y-6">
               <h2 className="text-xl font-semibold">Courses</h2>
@@ -90,7 +109,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );

@@ -14,7 +14,7 @@ const Section3 = () => {
         </h1>
       </div>
       <div>
-        <img src={img2} alt="" />
+        <img src={img2} alt="image" />
       </div>
     </div>
   );
