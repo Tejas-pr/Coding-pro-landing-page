@@ -11,10 +11,10 @@ const Section10 = () => {
   return (
     <>
       <div className="flex flex-col justify-center items-center mt-10 p-12 z-40">
-        <h2 className="text-1xl md:text-2xl font-light">
+        <h2 className="text-4xl md:text-6xl font-light">
           We know just education is not enough anymore
         </h2>
-        <h1 className="text-1.5xl md:text-4xl font-normal">
+        <h1 className="text-2xl md:text-4xl font-normal mt-8">
           So we’ve got the <span className="text-[#008D8F]">best mentors</span>{" "}
           for you.{" "}
         </h1>

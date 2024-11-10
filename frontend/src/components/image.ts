@@ -97,3 +97,14 @@ import polygon1 from '../assets/section10/polygon001.svg'
 import polygon2 from '../assets/section10/polygon002.svg'
 import polygondot from '../assets/section10/dotpolygon.svg'
 export { card01, img001, img002, img003, polygon1, polygon2, polygondot }
+
+// Section 11
+import cardLogo1 from '../assets/section11/cardLogo1.svg'
+import cardLogo2 from '../assets/section11/cardLogo2.svg'
+import arrowBtn from '../assets/section11/arrowBtn.svg'
+import cardImg from '../assets/section11/cardImg.svg'
+import circle from '../assets/section11/circle.svg'
+import circle2 from '../assets/section11/circle2.svg'
+export { cardLogo1, cardLogo2, arrowBtn, cardImg, circle, circle2 }
+
+// Section 12
